@@ -37,3 +37,18 @@ body {
 .navbar-custom {
     background-color: var(--background-color);
 }
+
+.btn-custom {
+    background-color: var(--background-color);
+    color: var(--font-color);
+    border: solid 1px var(--primary-color);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: var(--primary-hover-color);
+    color: var(--background-color);
+}
